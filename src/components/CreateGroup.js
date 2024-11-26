@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./CreateGroup.css";
-import logoImage from "../../assets/logo.png"; // 로고 이미지 경로
+import "./CreateGroup/CreateGroup.css";
+import logoImage from "../assets/logo.png"; // 로고 이미지 경로
 
 
 

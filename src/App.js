@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import About from "./components/About";
 import Rules from "./components/Rules";
-import CreateGroup from "./components/CreateGroup/CreateGroup";
+import CreateGroup from "./components/CreateGroup";
 import Login from "./components/Login"; // 로그인 컴포넌트 추가
 import Signup from "./components/Signup"; // 회원가입 컴포넌트 추가
 
