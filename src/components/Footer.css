@@ -1,0 +1,15 @@
+.footer {
+    width: 1536px; /* 고정 해상도 */
+    height: 80px; /* 원하는 높이 */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed; /* 화면 아래 고정 */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* 중앙 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
