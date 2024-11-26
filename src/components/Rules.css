@@ -1,0 +1,52 @@
+.rules {
+    padding: 40px 20px; /* 전체적인 상하좌우 여백 추가 */
+    background-color: #fff;
+    font-family: "Arial", sans-serif;
+    color: #333;
+}
+
+.rules-title {
+    font-size: 2.5rem; /* 제목 크기 약간 증가 */
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ff6f00; /* 오렌지 색상 */
+    text-align: center; /* 제목 가운데 정렬 */
+}
+
+.rules-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    background: linear-gradient(180deg, #fff, #f8f9fa); /* 배경 그라디언트 */
+    padding: 30px;
+    border-radius: 15px; /* 컨테이너도 부드러운 모서리 처리 */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* 컨테이너 그림자 추가 */
+}
+
+.rules-image {
+    max-width: 400px;
+    border-radius: 15px; /* 이미지 모서리를 부드럽게 */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* 그림자 효과 */
+    object-fit: cover; /* 이미지 크기를 부드럽게 조정 */
+}
+
+
+
+.rules-text {
+    max-width: 600px;
+    line-height: 1.8; /* 텍스트 간격 여유 있게 조정 */
+}
+
+.rules-text h2 {
+    font-size: 1.8rem; /* 소제목 크기 증가 */
+    margin-bottom: 15px;
+    color: #444;
+    border-left: 4px solid #ff6f00; /* 소제목 강조를 위한 좌측 라인 */
+    padding-left: 10px;
+}
+
+.rules-text p {
+    margin-bottom: 15px;
+    color: #555; /* 본문 글씨를 조금 더 부드러운 색상으로 */
+}

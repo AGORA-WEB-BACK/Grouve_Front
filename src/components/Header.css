@@ -1,0 +1,61 @@
+/* 네비게이션 메뉴 */
+.nav {
+    display: flex;
+    gap: 400px; /* 메뉴 간 간격 */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 25px; /* 메뉴 글씨 크기 */
+    font-weight: 500; /* 약간 굵은 폰트 */
+    display: flex;
+    align-items: center; /* 글씨 수직 가운데 정렬 */
+    height: 100%; /* 부모의 높이에 맞춤 */
+    padding: 0 10px; /* 클릭 영역 키우기 */
+    transition: color 0.3s ease; /* 부드러운 색상 전환 */
+}
+
+/* 활성화된 메뉴 스타일 (홈 강조) */
+.nav a.active {
+    color: #feab92; /* 주황색 */
+    font-weight: bold
+}
+
+/* 전체 화면 스타일 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header 스타일 */
+.header {
+    padding: 0 35px; /* 좌우 패딩 */
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 전체 컨텐츠를 수직 가운데 정렬 */
+    height: 60px; /* 헤더의 고정 높이 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+/* 로고 이미지 스타일 */
+.logo-img {
+    height: 22px; /* 로고 이미지의 높이 설정 (너비는 자동으로 비율 맞추기) */
+    object-fit: contain; /* 이미지 왜곡 방지 */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+
+}
+
+.nav a:hover {
+    color: #feab92;
+}
+
