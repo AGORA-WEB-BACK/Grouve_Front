@@ -1,7 +1,8 @@
 /* General Styles */
+
 .rules {
     padding: 40px;
-    background-color: #fff8f2;
+    background: linear-gradient(to bottom right, #fff, #ffe7e0);
     text-align: center;
 }
 
@@ -54,12 +55,12 @@
     font-weight: bold; /* 강조 */
 }
 
-
-  .logo-image {
-    width: 250px; /* 이미지 너비 */
-    height: auto; /* 비율 유지 */
+.logo-image {
+    width: auto !important;
+    height: 60px !important;
+    margin-right: 10px !important;
+    vertical-align: middle !important;
 }
-
 
 .Group-image {
     width: 130px; /* 이미지 너비 */

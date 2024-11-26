@@ -1,5 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom"; // NavLink를 사용하여 활성화된 링크를 스타일링
+import
+{ NavLink } from "react-router-dom"; // NavLink를 사용하여 활성화된 링크를 스타일링
 import "./Header.css";
 import logo from "../assets/logo.png"; // 로고 이미지 파일 경로
 
