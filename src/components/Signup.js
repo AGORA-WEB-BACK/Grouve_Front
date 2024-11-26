@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import characterImage from '../assets/character1.png';
-import logoImage from '../assets/logo.png';
 import SignupForm from '../components/SignupForm';
 
 function H1() {
@@ -26,7 +25,7 @@ const Signup = () => {
                     backgroundColor: '#fff9f0',
                 }}
             >
-                <img src={logoImage} alt="GROOVE Logo" style={{ width: '120px', marginBottom: '20px' }} />
+                {/* 로고 삭제된 부분 */}
                 <div style={{ textAlign: 'left', marginTop: '40px' }}>
                     <H1 />
                     <H2 />
