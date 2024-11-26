@@ -36,41 +36,24 @@ const SignupForm = () => {
                 </button>
             </div>
 
-            {/* 인증번호 입력 필드 */}
-            <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
+
+            {/* 비밀번호 입력 필드 */}
+            <div style={{marginBottom: '20px'}}>
                 <input
-                    type="text"
-                    placeholder="인증번호 입력"
+                    type="name"
+                    placeholder="name"
                     style={{
-                        flex: 1,
+                        width: '100%',
                         padding: '12px',
                         border: '1px solid #ddd',
-                        borderRadius: '8px 0 0 8px',
-                        backgroundColor: '#fff7f0',
+                        borderRadius: '8px',
+                        backgroundColor: '#f7f9ff',
                         outline: 'none',
                         fontSize: '14px',
                         boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.1)',
+                        marginBottom: '10px',
                     }}
                 />
-                <button
-                    type="button"
-                    style={{
-                        padding: '12px 20px',
-                        backgroundColor: 'orange',
-                        color: '#fff',
-                        border: 'none',
-                        borderRadius: '0 8px 8px 0',
-                        fontSize: '14px',
-                        cursor: 'pointer',
-                        boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.1)',
-                    }}
-                >
-                    인증번호 받기
-                </button>
-            </div>
-
-            {/* 비밀번호 입력 필드 */}
-            <div style={{ marginBottom: '20px' }}>
                 <input
                     type="password"
                     placeholder="Password"
