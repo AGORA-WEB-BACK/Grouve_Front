@@ -1,0 +1,96 @@
+.about-container {
+    font-family: 'Noto Sans KR', Arial, sans-serif;
+    background: linear-gradient(to bottom right, #fff, #ffe7e0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 화면을 꽉 채움 */
+}
+
+.about-content {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.about-logo {
+    width: 150px;
+    height: auto;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    background: linear-gradient(to right, #ff9f7f, #ffcf7f);
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: #E4faee;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+    font-size: 20px;
+    color: #ff7f00;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.icon {
+    margin-bottom: 15px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+}
